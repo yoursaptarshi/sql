@@ -1,0 +1,39 @@
+
+/*
+DECLARE
+message varchar(20):='hello';
+BEGIN
+DBMS_OUTPUT.PUT_LINE(message);
+END;
+/
+*/
+/*
+prompt give a value
+ACCEPT n;
+DECLARE
+a number(5);
+
+BEGIN
+
+a:=&n;
+IF (mod (a,2)=0) THEN
+DBMS_OUTPUT.PUT_LINE('even');
+else
+DBMS_OUTPUT.PUT_LINE('odd');
+END if;
+END;
+/
+*/
+
+prompt give a value
+ACCEPT radius;
+DECLARE
+radius number(5,2);
+area number(5,2);
+pi number(5,2):=3.14;
+BEGIN
+radius:=&radius;
+area:=pi*radius*radius;
+DBMS_OUTPUT.PUT_LINE('Area:'||area);
+END;
+/

@@ -1,0 +1,13 @@
+DECLARE
+variables initializa
+
+BEGIN
+-
+-
+-
+optional(exception)
+-
+-
+-
+END
+
